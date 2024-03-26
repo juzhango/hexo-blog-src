@@ -207,8 +207,10 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2024
   custom_text:
+    - <imgsrc="https://haiyong.site/img/icp.png"><a href="https://beian.miit.gov.cn/#/Integrated/index"  style="color:white" target="_blank">闽ICP备2024039811号</a>
+    - <imgsrc="https://icp.gov.moe/images/ico64.png"><a href="https://icp.gov.moe/"  style="color:white" target="_blank">萌ICP备20240319号</a>
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
