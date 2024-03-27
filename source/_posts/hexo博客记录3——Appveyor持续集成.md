@@ -2,7 +2,7 @@
 title: hexo博客记录3——Appveyor持续集成
 abbrlink: da95da28
 date: 2024-03-26 22:48:32
-tags:
+tags: hexo
 ---
 
 >[持续集成服务](https://en.wikipedia.org/wiki/Continuous_integration)（全名`Continuous Integration`，简称 CI），它其实是一个云端自动化构建和测试服务，**它绑定 Github 上面的项目，只要有新的代码，就会自动抓取。然后，提供一个运行环境，执行测试，完成构建，还能部署到服务器。**
