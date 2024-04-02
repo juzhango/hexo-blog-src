@@ -1,6 +1,6 @@
 ---
 title: linux新建用户
-tags: shell
+tags: linux
 abbrlink: 21b2690f
 date: 2024-04-02 22:49:10
 ---
