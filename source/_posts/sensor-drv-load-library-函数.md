@@ -1,6 +1,9 @@
 ---
 title: sensor_drv_load_library()函数
-tags: [展锐,camera,sns_drv_u]
+tags:
+  - 展锐
+  - camera
+  - sns_drv_u
 abbrlink: 28b0fb00
 date: 2024-04-02 17:46:14
 ---
