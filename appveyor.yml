@@ -13,7 +13,7 @@ install:
   - npm install hexo-abbrlink --save
   - npm install hexo-renderer-pug hexo-renderer-stylus --save
   # 隐藏文章
-  - https://github.com/prinsss/hexo-hide-posts
+  - npm install hexo-hide-posts --save
 
 build_script:
   - hexo clean
