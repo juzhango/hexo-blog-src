@@ -9,8 +9,11 @@ install:
   - npm --version
   - npm install hexo-cli -g
   - npm install
+  # 永久链接
   - npm install hexo-abbrlink --save
   - npm install hexo-renderer-pug hexo-renderer-stylus --save
+  # 隐藏文章
+  - https://github.com/prinsss/hexo-hide-posts
 
 build_script:
   - hexo clean

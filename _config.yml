@@ -19,13 +19,13 @@ permalink: _posts/:abbrlink/
 abbrlink:
   alg: crc32      #support crc16(default) and crc32 进制
   rep: hex        #support dec(default) and hex  算法
-  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) 
+  drafts: false   #(true)Process draft,(false)Do not process draft. false(default)
   ## Generate categories from directory-tree
   ## depth: the max_depth of directory-tree you want to generate, should > 0
   auto_category:
      enable: true  #true(default)
      depth:        #3(default)
-     over_write: false 
+     over_write: false
   auto_title: false #enable auto title, it can auto fill the title by path
   auto_date: false #enable auto date, it can auto fill the date by time today
   force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
@@ -119,3 +119,20 @@ deploy:
   type: 'git'
   repo: git@github.com:juzhango/juzhango.github.io.git
   branch: main
+
+## Docs: https://github.com/prinsss/hexo-hide-posts
+hide_posts:
+  # Should hexo-hide-posts be enabled.
+  enable: true
+  # The front-matter key for flagging hidden posts.
+  # You can change the filter name if you like.
+  filter: hidden
+  # Add "noindex" meta tag to prevent hidden posts from being indexed by search engines.
+  noindex: true
+  # Generators in the allowlist will have access to the hidden posts.
+  # Common generators in Hexo: 'index', 'tag', 'category', 'archive', 'sitemap', 'feed'
+  # allowlist_generators: []
+
+  # Generators in the blocklist can *not* access the hidden posts.
+  # The allowlist has higher priority than the blocklist, if both set.
+  # blocklist_generators: ['*']
