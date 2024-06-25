@@ -25,7 +25,7 @@ menu:
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
@@ -89,7 +89,7 @@ cover:
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
-# 友链样式,butterfly为默认样式,volantis为站点卡片样式,flexcard为弹性卡片样式,byer为粉丝彩蛋！  
+# 友链样式,butterfly为默认样式,volantis为站点卡片样式,flexcard为弹性卡片样式,byer为粉丝彩蛋！
 flink_style: flexcard # butterfly | volantis | flexcard | byer
 
 # Replace Broken Images (替換無法顯示的圖片)
