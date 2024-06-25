@@ -1,7 +1,8 @@
 ---
 title: hosts配置
-date: 2024-06-25 08:20:01
 tags: windows
+abbrlink: 61eb0d1
+date: 2024-06-25 08:20:01
 ---
 
 
